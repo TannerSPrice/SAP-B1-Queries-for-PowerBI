@@ -1,0 +1,4 @@
+-- use this as a last refresh to display on power bi for visuals that are current data
+
+
+= #table(type table[LastRefresh=datetime], {{DateTime.LocalNow()}})
